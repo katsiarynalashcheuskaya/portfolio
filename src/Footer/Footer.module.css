@@ -1,0 +1,38 @@
+.footer {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footerIcons {
+    /*border: 1px solid;*/
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.footerContainer span {
+    color: #6E7373;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+.title {
+    color: #333;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #ffe4db;
+    margin: 0 10px;
+}

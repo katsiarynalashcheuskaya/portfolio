@@ -1,0 +1,117 @@
+.aboutBlock {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+
+}
+
+.aboutContainer {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: -200px;
+    z-index: 100;
+    position: relative;
+    transition: 0.5s;
+    transform: translateY(20px);
+    /*-webkit-box-shadow: 0 1px 5px rgb(5 5 6 / 15%);*/
+    box-shadow: 10px 10px 100px rgb(0 0 0 / 10%);
+}
+
+.aboutContainer::-webkit-scrollbar {
+    display: none;
+}
+
+
+/*.aboutContainer:after {
+    content: "";
+    position: absolute;
+    right: -80px;
+    z-index: -354;
+    height: 200px;
+    width: 200px;
+    display: block;
+    background: url('https://gtom.info/justin/Light/assets/images/pattern1.png');
+    background-size: 155px;
+    top: -80px;
+}*/
+
+@media (max-width: 1100px) {
+    .aboutContainer {
+        margin-top: -150px;
+    }
+}
+
+.aboutWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.aboutDesc {
+}
+
+.photo img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 0.25rem;
+    text-align: start;
+    margin-left: 50px;
+}
+   /* background-image: url("https://sun9-east.userapi.com/sun9-74/s/v1/ig2/KvJGqEB-VGq7Sn6JYkJRkTlwYihED5GfSYmjQ00GTDA6ulyPxkZ7EfP5LA8Y3Cxvr-CZlrwC8Uzs4AfGvCypKXdv.jpg?size=810x1080&quality=95&type=album");
+ */
+
+
+.title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #333;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    margin: 0 0 30px;
+}
+
+.aboutMeIcons {
+    /*border: 1px solid;*/
+    min-width: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 24px 0 0;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-color: #ffe4db;
+    margin: 0 10px;
+}
+
+.text {
+    display: flex;
+   /* border: 1px solid;*/
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    color: #6E7373;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1100px){
+    .photo img {
+        display: none;
+    }
+    .text, .title{
+        text-align: center;
+    }
+    .aboutMeIcons, .text{
+        justify-content: center;
+    }
+}

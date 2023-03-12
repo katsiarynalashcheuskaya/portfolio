@@ -1,0 +1,35 @@
+.projectsBlock {
+    background-color: #fff;
+    padding: 50px 0;
+    .projectsContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+            position: relative;
+            .title span {
+                padding-bottom: 10px;
+                display: block;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                color: #878d8d;
+            }
+        }
+        .projectItems {
+            /* border: 1px solid;*/
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @media screen and (max-width: 1030px) {
+                justify-content: center;
+            }
+        }
+    }
+}
+
+
