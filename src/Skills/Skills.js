@@ -1,8 +1,9 @@
 import React from 'react';
-import s from './Skills.module.css';
+import s from './Skills.module.scss';
 import c from '../Common/Styles/Container.module.css';
 import Skill from "./Skill/Skill";
 import Title from "../Common/Components/Title/Title";
+import TitleDescription from "../Common/Components/Title/Description/TitleDescription";
 
 
 const Skills = () => {
@@ -10,7 +11,7 @@ const Skills = () => {
         <div className={s.skillsBlock}>
             <div className={`${c.container} ${s.skillsContainer}`}>
                 <div className={s.title}>
-                    <span>WHAT I KNOW</span>
+                    <TitleDescription titleDescription={'What i know'}/>
                     <Title title={'MY SKILLS'}/>
                 </div>
                 <div className={s.skillsItems}>

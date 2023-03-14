@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Contact.module.css';
 import c from '../Common/Styles/Container.module.css';
 import Title from "../Common/Components/Title/Title";
+import TitleDescription from "../Common/Components/Title/Description/TitleDescription";
 
 
 const Contact = () => {
@@ -9,7 +10,7 @@ const Contact = () => {
         <div className={s.contactBlock}>
             <div className={`${c.container} ${s.contactContainer}`}>
                 <div className={s.title}>
-                    <span>SAY HELLO</span>
+                    <TitleDescription titleDescription={'Say hello'}/>
                     <Title title={'CONTACT'}/>
                 </div>
                {/* <div className={s.formTitle}>

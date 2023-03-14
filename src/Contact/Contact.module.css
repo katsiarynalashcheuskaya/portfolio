@@ -3,11 +3,6 @@
     padding: 50px 0;
 }
 
-.contactContainer {
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
 .title {
     display: flex;
     flex-direction: column;

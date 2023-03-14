@@ -1,0 +1,9 @@
+@import '../../../../Common/Styles/sass/variables';
+.title span {
+        padding-bottom: 10px;
+        display: block;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $descriptionColor;
+    }

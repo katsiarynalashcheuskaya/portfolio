@@ -5,6 +5,7 @@ import Project from "./Project/Project";
 import Title from "../Common/Components/Title/Title";
 import todoImage from '../assets/image/project.png';
 import socialImage from '../assets/image/socialnetwork.jpeg';
+import TitleDescription from "../Common/Components/Title/Description/TitleDescription";
 
 const Projects = () => {
     const todolist = {
@@ -17,7 +18,7 @@ const Projects = () => {
         <div className={s.projectsBlock}>
             <div className={`${c.container} ${s.projectsContainer}`}>
                 <div className={s.title}>
-                    <span>PORTFOLIO</span>
+                    <TitleDescription titleDescription={'Portfolio'}/>
                     <Title title={'MY PROJECTS'}/>
                 </div>
                 <div className={s.projectItems}>

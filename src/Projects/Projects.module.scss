@@ -1,5 +1,6 @@
+@import '../Common/Styles/sass/variables';
 .projectsBlock {
-    background-color: #fff;
+    background-color: $bgSecondColor;
     padding: 50px 0;
     .projectsContainer {
         flex-direction: column;
@@ -10,14 +11,6 @@
             align-items: center;
             margin-bottom: 50px;
             position: relative;
-            .title span {
-                padding-bottom: 10px;
-                display: block;
-                font-size: 12px;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-                color: #878d8d;
-            }
         }
         .projectItems {
             /* border: 1px solid;*/
