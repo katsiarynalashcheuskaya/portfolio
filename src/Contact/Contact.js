@@ -23,7 +23,7 @@ const Contact = () => {
                 <div className={s.inTouch}>
                 <div className={s.inTouchBlock}>
                     <div className={s.icon}></div>
-                    <span>14215 Ballantyne Lake Rd, Charlotte, NC</span>
+                    <span>1545 Asterwind Ct., 28277, Charlotte, NC</span>
                     <h5>Address</h5>
                 </div>
                 <div className={s.inTouchBlock}>

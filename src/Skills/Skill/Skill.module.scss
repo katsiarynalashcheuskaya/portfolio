@@ -1,39 +1,65 @@
 .skill {
-    width: 250px;
-    height: 200px;
-    background-color: #fff;
+  width: 250px;
+  height: 200px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 10px;
+  -webkit-box-shadow: 0 1px 5px rgb(5 5 6 / 15%);
+  &:hover {
+    -webkit-transition: all 1.3s ease-in-out;
+    transform: scale(1.05);
+  }
+  .blockFront {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
-    margin: 10px;
-    -webkit-box-shadow: 0 1px 5px rgb(5 5 6 / 15%);
-  /*  transition: all .3s ease 0s;
-    -webkit-box-direction: normal;*/
-    .blockBackground {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     border-radius: 2px;
-        .icon {
-            height: 60px;
-            width:60px;
-            background-color: #d7a9a9;
-            margin: 10px;
-        }
-        .title {
-            font-family: 'Josefin Sans', sans-serif;
-            font-weight: 700!important;
-            color: #333;
-        }
-}
-    .description {
-        text-align: center;
-        margin-top: 1rem!important;
-        font-weight: 500;
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 14px;
-        color: #6e7373;
+    width: 250px;
+    height: 200px;
+    .icon {
+      height: 60px;
+      width: 60px;
+      background-color: #d7a9a9;
+      margin: 10px;
     }
+    .titleFront {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 700 !important;
+      color: #333;
+    }
+  }
+
+  .blockBack {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #fd735a;
+      width: 250px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+    .titleBack {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700 !important;
+        color: #000000;
+    }
+    .description {
+      padding: 0 5px;
+      text-align: center;
+      margin-top: 1rem !important;
+      font-size: 14px;
+      color: #000000;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+    }
+  }
 }

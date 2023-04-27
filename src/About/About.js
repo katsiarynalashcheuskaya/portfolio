@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './About.module.css';
 import c from '../Common/Styles/Container.module.css';
+import photo from '../assets/image/fun-photo.jpg'
 
 
 const About = () => {
@@ -24,7 +25,10 @@ const About = () => {
                 </div>
                 <div>
                 <div className={s.photo}>
-                    <img src={'https://sun9-east.userapi.com/sun9-74/s/v1/ig2/KvJGqEB-VGq7Sn6JYkJRkTlwYihED5GfSYmjQ00GTDA6ulyPxkZ7EfP5LA8Y3Cxvr-CZlrwC8Uzs4AfGvCypKXdv.jpg?size=810x1080&quality=95&type=album")'} alt={'asfasfasf'}/>
+                   {/* <img src={'https://sun9-east.userapi.com/sun9-74/s/v1/ig2/KvJGqEB-VGq7Sn6JYkJRkTlwYihED5GfSYmjQ00GTDA6ulyPxkZ7EfP5LA8Y3Cxvr-CZlrwC8Uzs4AfGvCypKXdv.jpg?size=810x1080&quality=95&type=album")'} alt={'asfasfasf'}/>
+*/}
+                    {/*<img src={photo} alt={'asfasfasf'}/>*/}
+                    <img src={photo} alt={'asfasfasf'}/>
                 </div>
                 </div>
             </div>

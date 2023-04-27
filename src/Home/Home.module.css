@@ -1,10 +1,10 @@
 .homeBlock {
     height: 100vh;
-    background-color: #ffeeee;
+    background: linear-gradient(#7c7247, #f7f7f7);
     padding: 50px 0;
-    background-image: url("https://sun9-east.userapi.com/sun9-74/s/v1/ig2/KvJGqEB-VGq7Sn6JYkJRkTlwYihED5GfSYmjQ00GTDA6ulyPxkZ7EfP5LA8Y3Cxvr-CZlrwC8Uzs4AfGvCypKXdv.jpg?size=810x1080&quality=95&type=album");
-    background-size: cover ;
-    background-position: center;
+   /* background-image: url("https://sun9-east.userapi.com/sun9-74/s/v1/ig2/KvJGqEB-VGq7Sn6JYkJRkTlwYihED5GfSYmjQ00GTDA6ulyPxkZ7EfP5LA8Y3Cxvr-CZlrwC8Uzs4AfGvCypKXdv.jpg?size=810x1080&quality=95&type=album");*/
+    /*background-size: cover ;
+    background-position: center;*/
 }
 
 .nameBlock {
@@ -15,6 +15,12 @@
     justify-content: center;
 }
 
+.canvasJs {
+    display: inline-block;
+    vertical-align: baseline;
+    overflow: clip;
+    aspect-ratio: auto 622 / 326;
+}
 .photo {
     width: 250px;
     height: 330px;
